@@ -15,6 +15,10 @@ Angular 及び Ionic Framework のドキュメントはこちらを確認して�
 * Run `npm install`
 * Run `ionic serve`
 
+# Version 情報
+* nodeJS v12以上
+* typescript v3.5.3  ※ v4 だとエラーになるかも
+* ionic 5
 
 # Test
 1. サイドバーに「Hello World」を追加してください。
