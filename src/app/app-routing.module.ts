@@ -25,6 +25,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/signup/signup.module').then(m => m.SignUpModule)
   },
   {
+    path: 'helloWorld',
+    loadChildren: () => import('./pages/helloWorld/helloWorld.module').then(m => m.HelloWorldModule)
+  },
+  {
     path: 'app',
     loadChildren: () => import('./pages/tabs-page/tabs-page.module').then(m => m.TabsModule)
   },
@@ -39,4 +43,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
